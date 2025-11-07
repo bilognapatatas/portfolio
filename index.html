@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My portfolio | IT Professional</title>
+  <title>My portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <h1>Hi, I'm Raiah Crista</h1>
-    <p>IT Professional | Network and Security | Cloud Enthusiast</p>
+  <canvas id="starfield"></canvas>
+
+  <header class="glass-header">
+    <h1>Hi, I’m <span>Raiah Crista Ucol</span></h1>
+    <p class="subtitle">IT Professional</p>
     <nav>
       <a href="index.html" class="active">Home</a>
       <a href="achievements.html">Achievements</a>
@@ -18,22 +22,63 @@
     </nav>
   </header>
 
-  <section class="intro">
-    <h2>About Me</h2>
-    <p>
-      I'm an IT professional passionate about building secure, scalable, and efficient systems.  
-      With a background in cybersecurity and cloud infrastructure, I enjoy turning complex tech challenges  
-      into elegant, automated solutions.
-    </p>
-    <p>
-      When I’m not coding or managing servers, I enjoy reading tech blogs, exploring cozy cafes,  
-      and mentoring aspiring IT professionals.
-    </p>
+  <main>
+    <!-- ✅ FIXED ABOUT ME SECTION -->
+    <section class="about glass">
+      <div class="profile-img">
+        <img src="rai.jpg" alt="Raiah Crista Ucol" />
+      </div>
 
-    <div class="button-group">
+      <div class="text">
+        <h2>About Me</h2>
+        <p>
+          Hello and welcome to my portfolio! I’m an IT student at the University of the Cordilleras, passionate about technology and its potential to transform lives. 
+        </p>
+      </div>
+    </section>
+
+    <!-- BIOGRAPHY SECTION -->
+    <section class="bio glass">
+      <h2>Biography</h2>
+      <p>
+        I am Raiah Crista Ucol, a first year IT student at the University of the Cordilleras majoring in Network and Security. When I was a child, I envisioned my life to be filled with languages concerning the diverse linguistics of humans but to my surprise, I did land on languages but is for computers. So, here I am studying information technology to make the world a better place as the world progresses with technological advancements.
+      </p>
+
+      <p>
+        When I was a child, I wondered which path was right for me. After much deliberation that took me years on deciding, I chose to study information technology. This chosen course of mine made me realize my potential and capabilities regarding technology. I have learned many interesting concepts in my first semester as an IT student. The learning given to me by my instructors definitely expanded my prior knowledge about how computers, systems, and different programming languages serve crucial purposes in our daily lives.
+      </p>
+
+      <p>
+        My developing understanding about my field creates an environment of constant improvement, coding is starting to become second nature to me and the complexities of this course is constantly challenging me to strive for excellence that will be important in building my future as an IT professional.
+      </p>
+
+      <p>
+        What they say is true, information technology really is a difficult course to understand but it serves as my motivation as I build myself towards success one code at a time. My life is like a code, what I am doing now in my first year of college is the very foundation whether the outcome of my future is successful.
+      </p>
+
+      <p>
+        With honest learning, efforts, and constant improvements, in time all of these hardships will be rewarded with my degree and diploma in which I will finally succeed as an IT professional.
+      </p>
+    </section>
+
+    <!-- BUTTON SECTION -->
+    <section class="buttons glass">
       <a href="achievements.html" class="btn">See My Achievements</a>
-      <a href="gallery.html" class="btn secondary">View Gallery</a>
-    </div>
+      <a href="gallery.html" class="btn secondary">Visit My Gallery</a>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact glass">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:raicu1907@gmail.com">raicu1907@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Raiah Crista</p>
+  </footer>
+</body>
+</html>
   </section>
 
   <section class="map-section">
